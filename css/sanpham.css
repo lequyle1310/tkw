@@ -1,0 +1,117 @@
+/* Phần menu chung */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 5px;
+}
+li.menu{
+    padding-left: 20px;
+}
+ul{
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+body{
+    margin: 0 0 0 0 ;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+.header{
+    box-shadow: 3px 3px 8px  black;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    background-color: rgb(221, 113, 25);
+}
+.top{
+    transition: 0.25s;
+}
+.mid{
+    text-align: center;
+    padding-top: 42px;
+    font-size: 25px;  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.headline{
+    text-align: center;
+    font-size: 25px;  
+    
+    
+}
+#right1{
+    margin-left: 520px;
+}
+
+h3{
+    margin: 0 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid #858484;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top:hover{
+    font-size: 30px;
+    transition: 0,2s;
+}
+.child{
+    width: 220px;
+    height: 300px;
+    border:1px solid black;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+img{
+    width: 200px;
+    height: 180px;
+    vertical-align: center;
+    padding-top: 5px;
+    width: 140px;
+}
+p{
+    margin: 0 0 0 0;
+    color: #000000;
+}
+.pay{
+    color: #ee4d2d;
+}
+del{
+    color: #858484;
+}
+.buy{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: white;
+    padding: 10px 0;
+}
+i{
+   padding-right: 10px;
+}
+li:hover a.buy{
+    font-size: 21px;
+}
+li:hover p.pay{
+    transform: scale(1.1);
+}
+.find{
+    padding-top: 50px;
+    text-align: center;
+}
+input.text{
+    width: 500px;
+    height: 25px;
+}
+.submit{
+    height: 25px;
+    
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 5px;
+}
+li.menu{
+    padding-left: 20px;
+}
+ul{
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    transition: 0.25s;
+}
+.top:hover{
+    font-size: 30px;
+    transition: 0,2s;
+}
+body{
+    margin: 0 0 0 0 ;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+.header{
+    box-shadow: 3px 3px 8px  black;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    background-color: rgb(221, 113, 25);
+}
+.panel{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 130px;
+    border: 1px solid black;
+    display:inline-block;
+    background-color: #e9e6e6;
+    border-top: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 590px;
+    height: 180px;
+    
+}
+#right1{
+    margin-left: 520px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin:5px 0 5px 0;
+}
+i#lienhe{
+    max-width: 30px;
+    max-height: 30px;
+    padding-left: 15px;
+}
+.panel-heading{
+    border: 1px solid black;
+    display:block;
+    text-align: center;
+    background-color: #848282;
+}
+.inpanel{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+form{
+    margin-bottom: 0;
+    width: 180px;
+    height: 30px;
+    padding-left:15px;
+}
+.table{
+    width: 500px;
+    height:340px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+table{
+    width: 500px;
+    height: 320px;
+    display: flex;
+    
+}
+tr.b{
+    background-color: white;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+td.a{
+    height: 30px;
+    width: 180px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+th{
+    width: 20px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#ykien{
+    width: 418px;
+    height:160px;
+    text-align: top;
+}
+
+iframe{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+.gui{
+    margin-top: 130px;
+    background-color: #497cc0;
+    color: #000000;
+    text-transform: uppercase;
+}
+.gui:hover{
+    background-color: #123e78;
+    color: white;
+}
+.table-2{
+    margin-top: 20px;
+}

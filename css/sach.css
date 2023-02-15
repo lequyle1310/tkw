@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 5px;
+}
+li.menu{
+    padding-left: 20px;
+}
+ul{
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    transition: 0.25s;
+}
+.top:hover{
+    font-size: 30px;
+    transition: 0,2s;
+}
+body{
+    margin: 0 0 0 0 ;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+.header{
+    box-shadow: 3px 3px 8px  black;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    background-color: rgb(221, 113, 25);
+    padding-top: 0;
+}
+img{
+    float: left;
+    width: 300px;
+    height: 360px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.infor1{
+padding-top: 60px;
+}
+.view{
+    display: inline-block;
+    font-size: 20px;
+}
+div{
+    padding-top: 10px;
+}
+.pay{
+    color: #ea1c23;
+    padding-top: 0;
+    font-size: 30px;
+}
+table{
+    text-align: left;
+    padding-left: 30px;
+}
+input{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ea1c23;
+    color: white;
+    text-transform: uppercase;
+
+}
+#right1{
+    margin-left: 520px;
+}
+h1{
+    margin: 0 0 0 0;
+}
+.infor2{
+    margin-top: 120px;
+}
+p{
+    padding-left: 30px;
+}
+strong{
+    text-transform: uppercase;
+}
+.std{
+    font-size: 30px;
+}
