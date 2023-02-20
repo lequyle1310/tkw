@@ -24,7 +24,7 @@ a{
 }
 body{
     margin: 0 0 0 0 ;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
 }
 .header{
